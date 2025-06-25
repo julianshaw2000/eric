@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eric Kwabena Ampofo – Painter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+</head>
+<body class="bg-[#fdfaf6] text-gray-800 font-sans">
+
+  <!-- Header/Nav -->
+  <header class="fixed top-0 left-0 right-0 bg-white shadow z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Eric Kwabena Ampofo</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#gallery" class="hover:text-blue-600">Gallery</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="grid grid-cols-1 gap-16 max-w-6xl mx-auto px-6 py-32">
+
+    <!-- Hero Section -->
+    <section class="text-center space-y-4">
+      <h2 class="text-5xl font-bold text-[#2e2c2a]">Eric Kwabena Ampofo</h2>
+      <p class="text-lg text-gray-600 max-w-xl mx-auto">Capturing the spirit of Ghana through fine art and residential painting.</p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-white p-8 rounded-xl shadow">
+      <h2 class="text-3xl font-semibold mb-6">About the Artist</h2>
+      <div class="flex flex-col md:flex-row gap-6 items-center">
+        <div class="flex-shrink-0">
+          <img src="images/eric.png" alt="Eric Kwabena Ampofo" class="w-48 h-48 rounded-full object-cover shadow-lg"/>
+        </div>
+        <div class="flex-1">
+          <p class="text-lg leading-relaxed">
+            Based in Accra, I bring scenes of Ghanaian life to vibrant color. My work blends tradition and modernity, from bold murals to intimate portraiture. I also paint homes — offering quality, affordable indoor and outdoor painting that transforms living spaces.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Gallery</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <a href="images/pic02.jpg" class="glightbox">
+          <img src="images/pic02.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 1"/>
+        </a>
+        <a href="images/pic03.jpg" class="glightbox">
+          <img src="images/pic03.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 2"/>
+        </a>
+        <a href="images/pic04.jpg" class="glightbox">
+          <img src="images/pic04.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 3"/>
+        </a>
+        <a href="images/pic05.jpg" class="glightbox">
+          <img src="images/pic05.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 4"/>
+        </a>
+        <a href="images/pic06.jpg" class="glightbox">
+          <img src="images/pic06.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 5"/>
+        </a>
+        <a href="images/pic07.jpg" class="glightbox">
+          <img src="images/pic07.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 6"/>
+        </a>
+        <a href="images/pic08.jpg" class="glightbox">
+          <img src="images/pic08.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 7"/>
+        </a>
+        <a href="images/pic09.jpg" class="glightbox">
+          <img src="images/pic09.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 7"/>
+        </a>
+        <a href="images/pic10.jpg" class="glightbox">
+          <img src="images/pic10.jpg" class="rounded shadow hover:scale-105 transition" alt="Artwork 7"/>
+        </a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="bg-white p-8 rounded-xl shadow">
+      <h2 class="text-3xl font-semibold mb-4">Services</h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 list-disc list-inside">
+ 
+        <li>Murals (interior/exterior)</li>
+        <li>House Painting (interior & exterior)</li>
+        <li>Live Event Painting</li>
+        <li>Art Workshops & Private Lessons</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="text-center space-y-3">
+      <h2 class="text-3xl font-semibold">Get in Touch</h2>
+      <p>Email: <a href="mailto:ericampofopainting@gmail.com" class="text-blue-600 hover:underline">ericampofopainting@gmail.com</a></p>
+      <p>Instagram: <a href="#" class="text-blue-600 hover:underline">@ericpaintsglobal</a></p>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-sm py-6 text-gray-500">
+    &copy; 2025 Eric Kwabena Ampofo. All rights reserved.
+  </footer>
+
+  <script>
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  </script>
+
+</body>
+</html>
